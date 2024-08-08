@@ -14,10 +14,10 @@ This project is a Library Management System implemented using Spring Boot. It in
 ### 1. Clone the Repository
 
 To clone the repository, use the following commands:
-```bash
+ ```bash
 git clone https://github.com/Marim60/Library-Management-System.git
 cd Library-Management-System
-
+ ```
 ### 2. Build and Run
 
 To build and run the application, use Maven with the following commands:
