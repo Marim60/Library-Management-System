@@ -18,8 +18,6 @@ To clone the repository, use the following commands:
 git clone https://github.com/Marim60/Library-Management-System.git
 cd Library-Management-System
 
-## Running the Application
-
 ### 2. Build and Run
 
 To build and run the application, use Maven with the following commands:
