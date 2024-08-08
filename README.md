@@ -19,26 +19,40 @@ To clone the repository, use the following commands:
 ```bash
 git clone https://github.com/Marim60/Library-Management-System.git
 cd Library-Management-System
-2. Build and Run
-To build and run the application, use Maven:
+## Build and Run
 
-bash
-Copy code
-mvn clean install
-mvn spring-boot:run
-API Endpoints
-Authentication
-The application uses Basic Authentication. Use the following credentials:
+To build and run the application, use Maven with the following commands:
 
-Username: admin
-Password: adminpass
-Endpoints
-For detailed API documentation, refer to the Postman collection linked below. The collection provides comprehensive details for each endpoint, including:
+1. **Build the project:**
 
-URL
-Method (GET, POST, PUT, DELETE)
-Request Body (if applicable)
-Response
-You can view the Postman collection here:
+    ```bash
+    mvn clean install
+    ```
 
-Postman Collection with Documentation
+2. **Run the application:**
+
+    ```bash
+    mvn spring-boot:run
+    ```
+
+## API Endpoints
+
+### Authentication
+
+The application uses **Basic Authentication**. Use the following credentials to authenticate:
+
+- **Username:** `admin`
+- **Password:** `adminpass`
+
+### Endpoints
+
+For detailed API documentation, refer to the [Postman collection](https://note-mood.postman.co/workspace/Global~129e7d65-cfa6-4456-864e-350351321515/collection/34400135-0eb034de-4685-4d09-a556-1a67a11f501f?action=share&creator=34400135). This collection includes comprehensive details for each endpoint, such as:
+
+- **URL**
+- **Method** (GET, POST, PUT, DELETE)
+- **Request Body** (if applicable)
+- **Response**
+
+You can access the Postman collection here:
+
+[Postman Collection with Documentation](https://note-mood.postman.co/workspace/Global~129e7d65-cfa6-4456-864e-350351321515/collection/34400135-0eb034de-4685-4d09-a556-1a67a11f501f?action=share&creator=34400135)
